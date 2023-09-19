@@ -1,0 +1,60 @@
+/* Reset Default Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Header Styles */
+  header {
+    background: linear-gradient(to bottom, #FFB74D, #4FC3F7, #81C784, #FF8A65);
+    color: #fff;
+    padding: 20px 0; /* Adjusted padding for vertical appearance */
+    text-align: center;
+  }
+  
+  /* Main Content Styles */
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Typography Styles */
+  h1, h2, h3, p {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Button Styles */
+  button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #357ae8;
+    transform: scale(1.05);
+  }
+  
+  /* Hidden Element Styles */
+  .hidden {
+    display: none;
+  }
+  
